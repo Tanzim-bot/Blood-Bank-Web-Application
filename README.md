@@ -8,34 +8,34 @@ The system streamlines blood donation, appointment scheduling, inventory managem
 Features
 
 User Roles & Authentication
-- **Donor Portal**
+- Donor Portal
   - Registration & login
   - Profile management
   - Appointment booking
-- **Admin Dashboard**
+- Admin Dashboard
   - Full system control and monitoring
   - Inventory and user management
-- **Patient Management**
+- Patient Management
   - Patient registration
   - Blood request processing
-- **Secure Authentication**
+- Secure Authentication
   - Separate authentication flows for donors and admins
   - Session-based access control
 
 ---
 
 Core Functionalities
-- **Blood Inventory Management**
+- Blood Inventory Management
   - Track blood units by group and availability
-- **Appointment Scheduling**
+- Appointment Scheduling
   - Donors can book, update, and cancel appointments
-- **Blood Distribution**
+- Blood Distribution
   - Issue blood to patients or hospitals
   - Automatic inventory updates
-- **Donor Management**
+- Donor Management
   - Donor lifecycle tracking
   - Donation history
-- **Patient Records**
+- Patient Records
   - Patient details and blood requirements tracking
 
 ---
@@ -44,42 +44,42 @@ Project Structure
 
 Controllers Overview
 
-#### 1. **AdminDashboardController**
+#### 1. AdminDashboardController
 - Admin dashboard operations
 - System statistics & reporting
 - User and system configuration
 
-#### 2. **AppointmentController**
+#### 2. AppointmentController
 - Appointment creation, update, and cancellation
 - Scheduling logic
 - Appointment status tracking (pending, confirmed, completed)
 
-#### 3. **BloodDistributionController**
+#### 3. BloodDistributionController
 - Blood issuance and distribution handling
 - Distribution record management
 - Inventory updates after distribution
 
-#### 4. **DashboardLoginController**
+#### 4. DashboardLoginController
 - Admin authentication
 - Session handling
 - Security and access control
 
-#### 5. **DonorAuthController**
+#### 5. DonorAuthController
 - Donor registration and login
 - Password reset and recovery
 - Donor session management
 
-#### 6. **DonorController**
+#### 6. DonorController
 - Donor profile management
 - Donation history tracking
 - Personal information updates
 
-#### 7. **DonorDashboardController**
+#### 7. DonorDashboardController
 - Donor dashboard overview
 - Appointment management
 - Personal statistics and notifications
 
-#### 8. **PatientController**
+#### 8. PatientController
 - Patient registration and management
 - Blood request processing
 - Patient request history
@@ -141,7 +141,7 @@ php artisan serve
 
 Database Schema
 
-### Key Tables
+Key Tables
 
 * `users` – Common authentication table (admins & donors)
 * `donors` – Donor information
@@ -155,14 +155,14 @@ Database Schema
 
 Authentication Flow
 
-### Donor Authentication
+Donor Authentication
 
 * Email-based registration
 * Login with email & password
 * Password reset functionality
 * Session-based authentication
 
-### Admin Authentication
+Admin Authentication
 
 * Separate admin login
 * Role-based access control
@@ -193,11 +193,11 @@ For Administrators
 
 Technologies Used
 
-* **Backend:** Laravel 11.31
-* **Frontend:** Blade Templates, Bootstrap
-* **Database:** MySQL
-* **Authentication:** Laravel Breeze / Sanctum
-* **Additional Packages:**
+* Backend: Laravel 11.31
+* Frontend: Blade Templates, Bootstrap
+* Database: MySQL
+* Authentication: Laravel Breeze / Sanctum
+* Additional Packages:
 
   * Laravel Collective (Forms)
   * Intervention Image (Image handling)
@@ -206,11 +206,11 @@ Technologies Used
 
 License
 
-This project is open-source and licensed under the **MIT License**.
+This project is open-source and licensed under the MIT License.
 
 ---
 
-## 👥 Contributing
+Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -226,7 +226,7 @@ For support, please open an issue in the GitHub repository.
 
 ---
 
-## 🔗 Links
+Links
 
 * **Repository:** [https://github.com/Tanzim-bot/bloodbank](https://github.com/Tanzim-bot/bloodbank)
 * **Issues:** [https://github.com/Tanzim-bot/bloodbank](https://github.com/Tanzim-bot/bloodbank)
