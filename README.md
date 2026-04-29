@@ -44,42 +44,42 @@ Project Structure
 
 Controllers Overview
 
-#### 1. AdminDashboardController
+ 1. AdminDashboardController
 - Admin dashboard operations
 - System statistics & reporting
 - User and system configuration
 
-#### 2. AppointmentController
+ 2. AppointmentController
 - Appointment creation, update, and cancellation
 - Scheduling logic
 - Appointment status tracking (pending, confirmed, completed)
 
-#### 3. BloodDistributionController
+ 3. BloodDistributionController
 - Blood issuance and distribution handling
 - Distribution record management
 - Inventory updates after distribution
 
-#### 4. DashboardLoginController
+ 4. DashboardLoginController
 - Admin authentication
 - Session handling
 - Security and access control
 
-#### 5. DonorAuthController
+ 5. DonorAuthController
 - Donor registration and login
 - Password reset and recovery
 - Donor session management
 
-#### 6. DonorController
+ 6. DonorController
 - Donor profile management
 - Donation history tracking
 - Personal information updates
 
-#### 7. DonorDashboardController
+ 7. DonorDashboardController
 - Donor dashboard overview
 - Appointment management
 - Personal statistics and notifications
 
-#### 8. PatientController
+ 8. PatientController
 - Patient registration and management
 - Blood request processing
 - Patient request history
