@@ -89,10 +89,10 @@ Controllers Overview
 Installation
 
 Prerequisites
-- PHP **8.2**
+- PHP **7.4+**
 - Composer
 - MySQL
-- Laravel **11.31**
+- Laravel **8.x**
 
 ---
 
@@ -193,7 +193,7 @@ For Administrators
 
 Technologies Used
 
-* Backend: Laravel 11.31
+* Backend: Laravel 8.x
 * Frontend: Blade Templates, Bootstrap
 * Database: MySQL
 * Authentication: Laravel Breeze / Sanctum
