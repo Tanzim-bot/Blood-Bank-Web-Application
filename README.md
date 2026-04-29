@@ -1,13 +1,13 @@
-# 🩸 Blood Bank Management System
+Blood Bank Management System
 
 A comprehensive **web-based Blood Bank Management System** built with **Laravel**.  
 The system streamlines blood donation, appointment scheduling, inventory management, and blood distribution, providing dedicated portals for **admins, donors, and patients**.
 
 ---
 
-## 🌟 Features
+Features
 
-### 🔐 User Roles & Authentication
+User Roles & Authentication
 - **Donor Portal**
   - Registration & login
   - Profile management
@@ -24,7 +24,7 @@ The system streamlines blood donation, appointment scheduling, inventory managem
 
 ---
 
-### ⚙️ Core Functionalities
+Core Functionalities
 - **Blood Inventory Management**
   - Track blood units by group and availability
 - **Appointment Scheduling**
@@ -40,9 +40,9 @@ The system streamlines blood donation, appointment scheduling, inventory managem
 
 ---
 
-## 🏗️ Project Structure
+Project Structure
 
-### 📂 Controllers Overview
+Controllers Overview
 
 #### 1. **AdminDashboardController**
 - Admin dashboard operations
@@ -86,17 +86,17 @@ The system streamlines blood donation, appointment scheduling, inventory managem
 
 ---
 
-## 🚀 Installation
+Installation
 
-### ✅ Prerequisites
-- PHP **7.4+**
+Prerequisites
+- PHP **8.2**
 - Composer
 - MySQL
-- Laravel **8.x**
+- Laravel **11.31**
 
 ---
 
-### 🔧 Setup Steps
+Setup Steps
 
 #### 1. Clone the repository
 ```bash
@@ -139,7 +139,7 @@ php artisan serve
 
 ---
 
-## 🗄️ Database Schema
+Database Schema
 
 ### Key Tables
 
@@ -153,7 +153,7 @@ php artisan serve
 
 ---
 
-## 🔐 Authentication Flow
+Authentication Flow
 
 ### Donor Authentication
 
@@ -170,9 +170,9 @@ php artisan serve
 
 ---
 
-## 💻 Usage
+Usage
 
-### 👤 For Donors
+For Donors
 
 * Register / login to donor portal
 * Complete profile setup
@@ -180,7 +180,7 @@ php artisan serve
 * Track donation history
 * Update personal information
 
-### 🧑‍💼 For Administrators
+For Administrators
 
 * Login to admin dashboard
 * Manage blood inventory
@@ -191,9 +191,9 @@ php artisan serve
 
 ---
 
-## 🛠️ Technologies Used
+Technologies Used
 
-* **Backend:** Laravel 8.x
+* **Backend:** Laravel 11.31
 * **Frontend:** Blade Templates, Bootstrap
 * **Database:** MySQL
 * **Authentication:** Laravel Breeze / Sanctum
@@ -204,7 +204,7 @@ php artisan serve
 
 ---
 
-## 📄 License
+License
 
 This project is open-source and licensed under the **MIT License**.
 
@@ -220,7 +220,7 @@ This project is open-source and licensed under the **MIT License**.
 
 ---
 
-## 🆘 Support
+Support
 
 For support, please open an issue in the GitHub repository.
 
